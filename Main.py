@@ -1,5 +1,5 @@
 class BinaryTreeNode:
-     def __init__(self, data)
+     def __init__(self, data):
         self.data = data
         self.left_child = None
         self.right_child = None
@@ -12,7 +12,7 @@ def insert(root, new_value) -> BinaryTreeNode:
         Finally, return the root.
         """
     # Write your code here
-    if (root == None):
+    if (root == None)
         root = BinaryTreeNode(new_value)
         return root
     else:
